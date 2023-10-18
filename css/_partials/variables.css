@@ -1,0 +1,19 @@
+/* Variables */
+:root{
+    /* common */
+    --border-selected: #ADFF2F;
+    /* nav */
+    --bg-nav: black;
+    --text-nav: #717171;
+    --text-nav-hover: white;
+    /* main */
+    --bg-body: #141922;
+    --text-main-dark: #7D7F84;
+    --text-main: white;
+    /* footer */
+    --bg-footer: #282828;
+    --text-dark-footer: #878787;
+    --text-footer: white;
+    --bar-dark-footer: #5A5A5A;
+    --bar-footer: #C1C1C1;
+}

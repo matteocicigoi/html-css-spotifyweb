@@ -6,6 +6,9 @@
     --bg-nav: black;
     --text-nav: #717171;
     --text-nav-hover: white;
+    --bg-user-nav: #808080;
+    --bg-icon-playlist-nav: #A3A3A3;
+    --text-icon-playlist-nav: black;
     /* main */
     --bg-body: #141922;
     --text-main-dark: #7D7F84;

@@ -3,7 +3,67 @@ nav{
     width: 50px;
     height: calc(100vh - 90px);
     background-color: var(--bg-nav);
+    overflow: hidden;
 }
+nav .box{
+    text-align: center;
+}
+nav .box img{
+    margin: 6px 0;
+    width: 20px;
+    vertical-align: middle;
+}
+nav .box img.logo{
+    width: 28px;
+    margin-top: 5px;
+}
+nav .small-box img.download{
+    width: 12px;
+}
+nav .small-box img.rounded{
+    width: 25px;
+    height: 25px;
+    background-color: var(--bg-user-nav);
+}
+nav .small-box span,
+nav .small-box h3,
+nav .small-box h4{
+    color: var(--text-nav);
+    font-weight: bold;
+    vertical-align: middle;
+}
+nav .playlist{
+    margin-top: 5px;
+    width: 100%;
+}
+nav .playlist{
+    /*min-height: 670px;*/
+    min-height: 150px;
+    overflow: auto;
+}
+nav .playlist > h3{
+    color: var(--text-nav-hover);
+    margin: 10px 0;
+}
+nav .playlist i{
+    background-color: var(--bg-icon-playlist-nav);
+    color: var(--text-icon-playlist-nav);
+    padding: 9px 10px;
+}
+nav .playlist span:last-of-type{
+    padding-left: 10px;
+}
+nav .playlist h3:first-of-type{
+    margin-top: 8px;
+}
+nav .playlist div h3{
+    padding: 9px 0;
+}
+nav .small-box > h4{
+    color: var(--text-nav-hover);
+    padding-left: 6px;
+}
+
 main{
     position: absolute;
     top: 0;

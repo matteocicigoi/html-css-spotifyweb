@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Spotify Web</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -20,7 +21,50 @@
 
 <body>
     <!-- Nav -->
-    <nav></nav>
+    <nav class="flex column justify-between">
+        <div class="box">
+            <img class="logo xs" src="img/logo-small.svg" alt="Spotify">
+            <img class="logo small" src="img/logo.svg" alt="Spotify">
+            <div class="small-box selectedNav">
+                <img src="img/home.svg" alt="Home">
+                <span class="small">Home</span>
+            </div>
+            <div class="small-box">
+                <img src="img/search.svg" alt="Search">
+                <span class="small">Cerca</span>
+            </div>
+            <div class="small-box">
+                <img src="img/libreria.svg" alt="Libreria">
+                <span class="small">La tua libreria</span>
+            </div>
+            <div class="small-box small playlist">
+                <h3>PLAYLIST</h3>
+                <span><i class="fa-solid fa-plus"></i></span>
+                <span>Crea Playlist</span>
+                <div>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                    <h3>Nome Playlist</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="small-box">
+                <img class="download" src="img/download.svg" alt="Download">
+                <span class="small">Installa app</span>
+                <hr class="small">
+            </div>
+            <div class="small-box">
+                <img class="rounded" src="img/profile.svg" alt="Profile">
+                <h4 class="small">Jhon Doe</h4>
+            </div>
+        </div>
+    </nav>
     <!-- Fine Nav -->
     <!-- Main -->
     <main></main>

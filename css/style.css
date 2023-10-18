@@ -2,3 +2,5 @@
 @import '_partials/variables.css';
 @import '_partials/common.css';
 @import '_partials/main.css';
+
+@import '_partials/responsive.css';

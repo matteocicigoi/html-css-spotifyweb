@@ -1,10 +1,12 @@
 /* Common */
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 span,
 h3,
-h4{
+h4,
+li{
     font-size: 13px;
 }
 .rounded{
@@ -16,9 +18,32 @@ h4{
 .column{
     flex-direction: column;
 }
+.grow{
+    flex-grow: 1;
+}
+.wrap{
+    flex-wrap: wrap;
+}
 .justify-between{
     justify-content: space-between;
 }
+.justify-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
 .small{
     display: none;
+}
+button{
+    all: unset;
+    color: var(--text-main);
+    border: 1px solid var(--text-main);
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: .75rem;
+    margin: 20px 20px;
+    cursor: pointer;
 }

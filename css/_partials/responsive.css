@@ -40,6 +40,20 @@
     }
     main{
         left: 230px;
-        width: calc(100vw - 230px);
+        width: calc(100% - 230px);
+    }
+    main .upgrade{
+        left: 230px;
+        width: calc(100% - 230px);
+    }
+}
+@media screen and (min-width: 768px){
+    main .small-box{
+        width: calc((100% - 30px) / 4 );
+    }
+}
+@media screen and (min-width: 992px){
+    main .small-box{
+        width: calc((100% - 50px) / 6 );
     }
 }

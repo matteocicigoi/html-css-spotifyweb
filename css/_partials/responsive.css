@@ -47,10 +47,25 @@
         left: 230px;
         width: calc(100% - 230px);
     }
+    footer .small-box.text{
+        max-width: unset;
+    }
+    footer .small-box.icons{
+        margin-left: 24px;
+    }
 }
 @media screen and (min-width: 768px){
     main .small-box{
         width: calc((100% - 30px) / 4 );
+    }
+    footer .small-box.icons i{
+        display: inline-flex;
+    }
+    footer .box{
+        width: 30%;
+    }
+    footer .box.player{
+        width: 40%;
     }
 }
 @media screen and (min-width: 992px){

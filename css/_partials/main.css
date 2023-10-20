@@ -149,8 +149,16 @@ main .box > span{
     font-size: .72rem;
     margin-bottom: 30px;
 }
+footer .small-box.text{
+    max-width: 80px;
+}
 /* Footer */
 footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
     width: 100%;
     height: 90px;
     background-color: var(--bg-footer);
@@ -158,15 +166,7 @@ footer{
 footer .box{
     padding: 0 10px;
     color: var(--text-dark-footer);
-}
-footer .box.grow{
-    overflow: hidden;
-    padding: 0;
-}
-footer .box:nth-of-type(2){
-    background-color: green;
-    width: 100%;
-    padding: 0 15px 0 36px;
+    width: calc(100% / 3);
 }
 footer .small-box img{
     width: 28px;
@@ -177,10 +177,10 @@ footer .small-box h3{
     color: var(--text-footer);
 }
 footer .small-box i{
-    font-size: 13px;
+    font-size: 17px;
 }
 footer .small-box.icons{
-    margin-left: 24px;
+    margin-left: 0px;
 }
 footer .small-box.icons i{
     display: block;
@@ -188,15 +188,19 @@ footer .small-box.icons i{
 footer .small-box.icons i:first-of-type{
     margin-bottom: 5px;
 }
-footer .small-box.player{
+footer .player{
+    padding: 0;
     text-align: center;
 }
 footer .player i{
-    margin: 0 11px;
+    font-size: 15px;
     color: var(--text-footer);
+    margin: 0 11px;
+    vertical-align: middle;
 }
-footer .player .fa-circle-play{
-    margin: 0 16px;
+footer .player .small-box .fa-circle-play{
+   font-size: 30px;
+   margin: 0px;
 }
 footer .bar{
     width: 100%;
@@ -204,6 +208,9 @@ footer .bar{
     margin: auto 10px;
     background-color: var(--bar-dark-footer);
     border-radius: 2px;
+}
+footer .volume .bar{
+    max-width: 118px;
 }
 footer .bar,
 footer .bar .completed{
@@ -227,10 +234,4 @@ footer .volume i:last-of-type{
 }
 footer .player i:last-of-type{
     margin-right: 0;
-}
-footer .player .bar{
-    width: 40px;
-}
-footer .volume .bar{
-    width: 85px;
 }

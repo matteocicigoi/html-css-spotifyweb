@@ -14,10 +14,6 @@
         text-align: left;
     }
     nav .box:last-of-type{
-        padding: 20px 0;
-        text-align: left;
-    }
-    nav .box:last-of-type{
         padding: 7px;
         text-align: left;
     }
@@ -32,6 +28,7 @@
     }
     nav .small-box.selectedNav{
         border-left: 3px solid var(--border-selected);
+        padding-left: 17px;
     }
     nav .small-box.selectedNav span{
         color: var(--text-nav-hover);

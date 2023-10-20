@@ -4,9 +4,13 @@ nav{
     height: calc(100vh - 90px);
     background-color: var(--bg-nav);
     overflow: hidden;
+    flex-shrink: 0;
 }
 nav .box{
     text-align: center;
+}
+nav .box.user{
+    margin-top: auto;
 }
 nav .box.grow{
     overflow: hidden;
@@ -35,14 +39,14 @@ nav .playlist li{
     color: var(--text-nav);
     vertical-align: middle;
 }
-nav .playlist{
-    margin-top: 5px;
-    width: 100%;
+nav .box.playlist{
+    min-width: 150px;
+    overflow-y: auto;
+    padding-top: 0;
 }
-nav .playlist{
-    /*min-height: 670px;*/
+nav .playlist div{
+    overflow-y: auto;
     min-height: 150px;
-    overflow: auto;
 }
 nav .playlist > h3{
     color: var(--text-nav-hover);

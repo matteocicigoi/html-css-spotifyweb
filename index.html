@@ -9,7 +9,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Fine Font Awesome -->
     <!-- Google Fonts - Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,9 +22,10 @@
 <body>
     <!-- Nav -->
     <nav class="flex column">
+        <!-- Elementi - Logo + Cerca + Libreria + Crea Playlist-->
         <div class="box">
-            <img class="logo xs" src="img/logo-small.svg" alt="Spotify">
-            <img class="logo small" src="img/logo.svg" alt="Spotify">
+            <img class="logo xs" src="img/logo-small.svg" alt="Spotify"><!-- Logo mobile -->
+            <img class="logo small" src="img/logo.svg" alt="Spotify"><!-- Logo >576px -->
             <div class="small-box selectedNav">
                 <img src="img/home.svg" alt="Home">
                 <span class="small">Home</span>
@@ -39,10 +40,11 @@
             </div>
             <div class="small-box small playlist">
                 <h3>PLAYLIST</h3>
-                <span><i class="fa-solid fa-plus"></i></span>
-                <span>Crea Playlist</span>
+                <span><i class="fa-solid fa-plus"></i>Crea Playlist</span>
             </div>
         </div>
+        <!-- Fine Elemento -->
+        <!-- Elementi - Playlist-->
         <div class="box playlist">
             <div class="small-box small playlist">
                 <ul>
@@ -57,6 +59,8 @@
                 </ul>
             </div>
         </div>
+        <!-- Fine Elemento -->
+        <!-- Elementi - Download + Utente-->
         <div class="box user">
             <div class="small-box">
                 <img class="download" src="img/download.svg" alt="Download">
@@ -68,90 +72,154 @@
                 <h4 class="small">Jhon Doe</h4>
             </div>
         </div>
+        <!-- Fine Elemento -->
     </nav>
     <!-- Fine Nav -->
     <!-- Main -->
     <main>
+        <!-- Sezione Upgrade -->
         <div class="upgrade">
-            <button>EFFETTUA L'UPGRADE</button>
+            <button>effettua l'upgrade</button>
         </div>
+        <!-- Fine Sezione Upgrade -->
+        <!-- Menu -->
         <div class="menu">
             <ul>
-                <li class="selected"><a href="#">IN EVIDENZA</a></li>
-                <li><a href="#">PODCAST</a></li>
-                <li><a href="#">CLASSIFICHE</a></li>
-                <li><a href="#">GENERI E MOOD</a></li>
-                <li><a href="#">NUOVE USCITE</a></li>
-                <li><a href="#">SCOPRI</a></li>
+                <li class="selected"><a href="#">in evidenza</a></li>
+                <li><a href="#">podcast</a></li>
+                <li><a href="#">classifiche</a></li>
+                <li><a href="#">generi e mood</a></li>
+                <li><a href="#">nuove uscite</a></li>
+                <li><a href="#">scopri</a></li>
             </ul>
         </div>
+        <!-- Fine Menu -->
+        <!-- Elementi - Recently Played -->
         <div class="box first">
             <h2>Recently played</h2>
             <div class="flex wrap">
+                <!-- -->
                 <div class="small-box">
-                    <img src="img/metal_lifting.jpg" alt="metal_lifting">
+                    <div class="image">
+                        <img src="img/metal_lifting.jpg" alt="metal_lifting">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Heavy Metal</h3>
                     <span>Subtitle</span>
                 </div>
+                <!-- -->
                 <div class="small-box">
-                    <img src="img/stranger.jpeg" alt="stranger">
+                    <div class="image">
+                        <img src="img/stranger.jpeg" alt="stranger">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
                     <span>Kyle Dixon & Michael Stein</span>
                 </div>
                 <div class="small-box">
-                    <img src="img/aquietplace.jpeg" alt="aquietplace">
+                    <div class="image">
+                        <img src="img/aquietplace.jpeg" alt="aquietplace">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>A quiet place</h3>
                     <span>Subtitle</span>
                 </div>
                 <div class="small-box">
-                    <img src="img/split.jpeg" alt="split">
+                    <div class="image">
+                        <img src="img/split.jpeg" alt="split">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Split</h3>
                     <span>Subtitle</span>
                 </div>
                 <div class="small-box">
-                    <img src="img/cure.jpeg" alt="cure">
+                    <div class="image">
+                        <img src="img/cure.jpeg" alt="cure">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>A cure for wellness</h3>
                     <span>Subtitle</span>
                 </div>
                 <div class="small-box">
-                    <img src="img/sinister.jpeg" alt="sinister">
+                    <div class="image">
+                        <img src="img/sinister.jpeg" alt="sinister">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Sinister</h3>
                     <span>Subtitle</span>
                 </div>
             </div>
         </div>
+        <!-- Fine Elementi -->
+        <!-- Elementi - Personali -->
         <div class="box">
             <h2>Creato per Jhon Doe</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti.</span>
             <div class="flex wrap">
                 <div class="small-box">
-                    <img src="img/radar.jpeg" alt="radar">
+                    <div class="image">
+                        <img src="img/radar.jpeg" alt="radar">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Release Radar</h3>
                 </div>
                 <div class="small-box">
-                    <img src="img/mixdaily.jpeg" alt="mixdaily">
+                    <div class="image">
+                        <img src="img/mixdaily.jpeg" alt="mixdaily">
+                        <div class="hover flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Daily Mix 1</h3>
                 </div>
             </div>
         </div>
+        <!-- Fine Elementi -->
+        <!-- Elementi - Artisti -->
         <div class="box">
             <h2>Artisti più popolari</h2>
             <span>Più ascolti, più accurati saranno i suggerimenti.</span>
             <div class="flex wrap">
                 <div class="small-box">
-                    <img class="rounded" src="img/youg.jpeg" alt="youg">
+                    <div class="image">
+                        <img class="rounded" src="img/youg.jpeg" alt="youg">
+                        <div class="hover rounded flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Lana del Rey</h3>
                 </div>
                 <div class="small-box">
-                    <img class="rounded" src="img/einaudi.jpeg" alt="einaudi">
+                    <div class="image">
+                        <img class="rounded" src="img/einaudi.jpeg" alt="einaudi">
+                        <div class="hover rounded flex justify-center align-items-center">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
+                    </div>
                     <h3>Ludovico Einaudi</h3>
                 </div>
             </div>
         </div>
+        <!-- Fine Elementi -->
     </main>
     <!-- Fine Main -->
     <!-- Footer -->
     <footer class="flex align-items-center">
+        <!-- Elemento -  Informazioni sul brano -->
         <div class="box flex align-items-center">
             <div class="small-box">
                 <img src="img/sinister.jpeg" alt="sinister">
@@ -165,6 +233,8 @@
                 <i class="fa-regular fa-folder"></i>
             </div>
         </div>
+        <!-- Fine Elemento -->
+        <!-- Elemento -  Player Musicale -->
         <div class="box player">
             <div class="small-box">
                 <i class="fa-solid fa-shuffle"></i>
@@ -181,6 +251,8 @@
                 <h3>4:35</h3>
             </div>
         </div>
+        <!-- Fine Elemento -->
+        <!-- Elemento -  Volume -->
         <div class="box">
             <div class="small-box volume flex justify-end">
                 <i class="fa-solid fa-list"></i>
@@ -191,6 +263,7 @@
                 </div>
             </div>
         </div>
+        <!-- Fine Elemento -->
     </footer>
     <!-- Fine Footer -->
 </body>
